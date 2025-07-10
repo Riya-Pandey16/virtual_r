@@ -1,9 +1,11 @@
 import FeatureSection from "./components/FeatureSection";
 import Pricing from "./components/Pricing";
+import Testimonials from "./components/Testimonials";
 import Workflow from "./components/Workflow";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar"; // or '../components/Navbar' depending on the file structure
 import React from 'react';
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -14,6 +16,8 @@ const App = () => {
       <FeatureSection />
       <Workflow />
       <Pricing/>
+      <Testimonials />
+      <Footer />
       </div>
     
     </>

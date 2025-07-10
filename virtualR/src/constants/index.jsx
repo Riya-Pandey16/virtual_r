@@ -13,10 +13,10 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-  { label: "Features", href: "#" },
-  { label: "Workflow", href: "#" },
-  { label: "Pricing", href: "#" },
-  { label: "Testimonials", href: "#" },
+  { label: "Profiles", href: "#" },
+  { label: "Message", href: "#" },
+  { label: "Post", href: "#" },
+  { label: "Session", href: "#" },
 ];
 
 export const testimonials = [
@@ -61,39 +61,39 @@ export const testimonials = [
 export const features = [
   {
     icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    text: "Message",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "Chat directly with students from any year or brancg and clear doubts.",
   },
   {
     icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    text: "login authenticity",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "Secure registration and login via email or university ID and Role-based access (e.g., student, professor, admin) with appropriate permissions..",
   },
   {
     icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    text: "Posts",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "Users can create posts with:Text, Images File attachments (e.g., PDFs, PPTs)",
   },
   {
     icon: <BatteryCharging />,
-    text: "Real-Time Preview",
+    text: "Profile Management",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "View and search user profiles by name, branch, or role. Users can also edit their own profile details, bio, and display picture directly from the profile page.",
   },
   {
     icon: <PlugZap />,
-    text: "Collaboration Tools",
+    text: "Session Creation ",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "Users can easily create interactive sessions (like study groups, events, or Q&A forums) and others can join using a unique code or link, enabling real-time collaboration within the UniConnect community.",
   },
   {
     icon: <GlobeLock />,
-    text: "Analytics Dashboard",
+    text: "Admin Dashboard",
     description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+      "Admins have full control over all posts, with the authority to monitor, review, and delete any content deemed malicious or inappropriate, ensuring a safe and respectful environment.",
   },
 ];
 
